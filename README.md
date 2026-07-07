@@ -28,7 +28,7 @@ Specifically, I trained on **`Sentences_AllAgree.txt`**, the subset where all an
 
 | | |
 |---|---|
-| Source file | `data/Sentences_AllAgree.txt` |
+| Source file | `Training Data (FinancialPhraseBank-v1.0/Sentences_AllAgree.txt` |
 | Format | `sentence@label`, ISO-8859-1 encoded |
 | Total examples | 2,262 |
 | Class distribution | ~61% neutral, ~25% positive, ~13% negative (per paper Table 1) |
@@ -38,7 +38,7 @@ Specifically, I trained on **`Sentences_AllAgree.txt`**, the subset where all an
 
 ```bash
 # Clone the repo
-git clone <your-repo-url>
+git clone https://github.com/vedangsharma68/finbert-financial-sentiment-replication/
 cd finbert-replicated
 
 # Create environment
